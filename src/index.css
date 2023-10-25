@@ -1,0 +1,49 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+ .font-custom {
+  font-family: 'Cutive Mono', monospace;
+ }
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.myAni {
+  animation-name: left;
+  animation-duration: 4s;
+ }
+ .myAni2 {
+  animation-name: right;
+  animation-duration: 1s;
+ }
+  @keyframes left {
+    from {
+      position: relative;
+     right: -1200px;
+    }
+   
+   
+    to{
+      position: relative;
+      right: 0px;
+    }
+    
+  }
+  @keyframes right {
+    from {
+      position: relative;
+      right: -1200px;
+    }
+   
+   
+    to{
+      position: relative;
+      right: 0px;
+    }
+    
+  }
+ 
