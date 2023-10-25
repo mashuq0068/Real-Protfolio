@@ -63,25 +63,42 @@
       transform: rotate(360deg);
     }
   }
+  @keyframes width {
+    from {
+      width: 20px;
+    }
+    to {
+     width: 80%;
+    }
+  }
   .badge {
     position: relative;
   width: 100px; /* Adjust the width to make the circle smaller */
   height: 100px; /* Adjust the height to make the circle smaller */
   border-radius: 50%;
   
-  border: 1px solid black;
+ 
   transform: rotate(0deg);
+  
  
   }
+  .ani {
+    animation: spin 2s linear infinite;
+  }
+  .ani-width{
+    animation: width 2s infinite;
+  }
+  
   span {
     
    position: absolute;
-  
+     left: 0;
+     top: 0;
     width:40px;
     height: 40px;
      font-size: smaller;
-    border:none;
-    width: 20px;
+  
+   
    
     transform-origin: bottom center;
   }

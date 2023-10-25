@@ -15,7 +15,7 @@ const Root = () => {
            <NavLink className='  animate-bounce duration-1000  hover:bg-sky-400 hover:pl-3 hover:pr-[20vw] hover:py-2 hover:rounded-2xl hover:animate-none' to='/'>Faq</NavLink>
            <NavLink className=' animate-bounce duration-1000  hover:bg-teal-400 hover:pl-3 hover:pr-[15vw] hover:py-2 hover:rounded-2xl hover:animate-none' to='/'>Contact</NavLink>
        
-        <div className="badge font-mono text-xs ">
+        {/* <div className="badge font-mono text-xs  ">
             <span className=" char1  ">F</span>
             <span className=" char2 ">r</span>
             <span className=" char3 "> o</span>
@@ -35,7 +35,9 @@ const Root = () => {
             <span className=" char17 ">e</span>
             <span className=" char18">r</span>
             
-         </div>
+         </div> */}
+        
+         {/* <img  className="w-[120px] ani xl:mt-[5%]  2xl:mt-[20%]  " src="https://i.postimg.cc/L65y3kpk/download-removebg-preview.png" alt="" /> */}
         </div>
          
          
