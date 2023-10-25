@@ -49,4 +49,111 @@
     }
     
   }
+  .circle {
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    
+
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .badge {
+    position: relative;
+  width: 100px; /* Adjust the width to make the circle smaller */
+  height: 100px; /* Adjust the height to make the circle smaller */
+  border-radius: 50%;
+  
+  border: 1px solid black;
+  transform: rotate(0deg);
  
+  }
+  span {
+    
+   position: absolute;
+  
+    width:40px;
+    height: 40px;
+     font-size: smaller;
+    border:none;
+    width: 20px;
+   
+    transform-origin: bottom center;
+  }
+  .char1 {
+    transform: rotate(0deg);
+  }
+  
+  .char2 {
+    transform: rotate(20deg);
+  }
+  
+  .char3 {
+    transform: rotate(40deg);
+  }
+  
+  .char4 {
+    transform: rotate(60deg);
+  }
+  
+  .char5 {
+    transform: rotate(80deg);
+  }
+  
+  .char6 {
+    transform: rotate(100deg);
+  }
+  
+  .char7 {
+    transform: rotate(120deg);
+  }
+  
+  .char8 {
+    transform: rotate(140deg);
+  }
+  
+  .char9 {
+    transform: rotate(160deg);
+  }
+  
+  .char10 {
+    transform: rotate(180deg);
+  }
+  
+  .char11 {
+    transform: rotate(200deg);
+  }
+  
+  .char12 {
+    transform: rotate(220deg);
+  }
+  
+  .char13 {
+    transform: rotate(240deg);
+  }
+  
+  .char14 {
+    transform: rotate(260deg);
+  }
+  
+  .char15 {
+    transform: rotate(280deg);
+  }
+  
+  .char16 {
+    transform: rotate(300deg);
+  }
+  
+  .char17 {
+    transform: rotate(320deg);
+  }
+  
+  .char18 {
+    transform: rotate(340deg);
+  }
+    
