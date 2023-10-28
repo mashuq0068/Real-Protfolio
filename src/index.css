@@ -3,11 +3,12 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
- .font-custom {
+ /* .font-custom {
   font-family: 'Cutive Mono', monospace;
- }
+ } */
  body{
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Cutive Mono' , monospace;
+  overflow-x: hidden;
  }
 
 
@@ -16,23 +17,20 @@
 @tailwind components;
 @tailwind utilities;
 .myAni {
-  animation-name: left;
+  animation-name: right;
   animation-duration: 4s;
  }
- .myAni2 {
-  animation-name: right;
-  animation-duration: 1s;
- }
+ 
   @keyframes left {
     from {
       position: relative;
-     right: -1200px;
+     left: -1200px;
     }
    
    
     to{
       position: relative;
-      right: 0px;
+      left: 0px;
     }
     
   }
@@ -82,13 +80,73 @@
   
  
   }
-  .ani {
-    animation: spin 2s linear infinite;
+  .ani-right {
+    animation: right 2s linear ;
   }
-  .ani-width{
-    animation: width 2s infinite;
+  .ani-left{
+   animation: left 2s linear;
   }
-  
+  .ani-top{
+
+  }
+  .ani-bottom{
+
+  }
+  @keyframes bounce1 {
+    0%, 100% {
+      transform: translateY(-75vh);
+      
+    }
+    50% {
+      transform: translateY(10vh);
+      
+    }}
+  @keyframes bounce-letter {
+    0%, 100% {
+      transform: translateY(-5vh);
+      
+    }
+    50% {
+      transform: translateY(10vh);
+      
+    }}
+    .ani-letter{
+      animation: bounce-letter 2s linear;
+    }
+   
+  @keyframes bounce2 {
+    0%, 100% {
+      transform: translateY(-85vh);
+     
+    }
+    50% {
+      transform: translateY(10vh);
+     
+    }
+  }
+  @keyframes bounce3 {
+    0%, 100% {
+      transform: translateY(-65vh);
+      
+    }
+    50% {
+      transform: translateY(10vh);
+      
+    }
+  }
+  .ani-bounce	{
+   animation: bounce1 3s  ;
+  }
+  .ani-bounce2	{
+    animation: bounce2 4s ;
+  }
+  .ani-bounce3	{
+    animation: bounce3 5s  ;
+  }
+  .ani-bounce4	{
+    animation: bounce1 6s ;
+  }
+
   span {
     
    position: absolute;
@@ -174,3 +232,15 @@
     transform: rotate(340deg);
   }
     
+  .bg-glass{
+    /* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.14);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(14.3px);
+-webkit-backdrop-filter: blur(14.3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  }
