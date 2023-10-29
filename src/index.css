@@ -9,6 +9,7 @@
  body{
   font-family: 'Cutive Mono' , monospace;
   overflow-x: hidden;
+  overflow-y: hidden;
  }
 
 
@@ -147,91 +148,7 @@
     animation: bounce1 6s ;
   }
 
-  span {
-    
-   position: absolute;
-     left: 0;
-     top: 0;
-    width:40px;
-    height: 40px;
-     font-size: smaller;
   
-   
-   
-    transform-origin: bottom center;
-  }
-  .char1 {
-    transform: rotate(0deg);
-  }
-  
-  .char2 {
-    transform: rotate(20deg);
-  }
-  
-  .char3 {
-    transform: rotate(40deg);
-  }
-  
-  .char4 {
-    transform: rotate(60deg);
-  }
-  
-  .char5 {
-    transform: rotate(80deg);
-  }
-  
-  .char6 {
-    transform: rotate(100deg);
-  }
-  
-  .char7 {
-    transform: rotate(120deg);
-  }
-  
-  .char8 {
-    transform: rotate(140deg);
-  }
-  
-  .char9 {
-    transform: rotate(160deg);
-  }
-  
-  .char10 {
-    transform: rotate(180deg);
-  }
-  
-  .char11 {
-    transform: rotate(200deg);
-  }
-  
-  .char12 {
-    transform: rotate(220deg);
-  }
-  
-  .char13 {
-    transform: rotate(240deg);
-  }
-  
-  .char14 {
-    transform: rotate(260deg);
-  }
-  
-  .char15 {
-    transform: rotate(280deg);
-  }
-  
-  .char16 {
-    transform: rotate(300deg);
-  }
-  
-  .char17 {
-    transform: rotate(320deg);
-  }
-  
-  .char18 {
-    transform: rotate(340deg);
-  }
-    
   .bg-glass{
     /* From https://css.glass */
 /* From https://css.glass */
@@ -244,3 +161,15 @@ backdrop-filter: blur(14.3px);
 -webkit-backdrop-filter: blur(14.3px);
 border: 1px solid rgba(255, 255, 255, 0.3);
   }
+  @keyframes bottom {
+    from{
+      transform: translateY(5vh);
+    
+  }
+  to{
+    transform: translateY(0vh);
+  }
+}
+.ani-bottom {
+  animation: bottom 1s linear;
+}

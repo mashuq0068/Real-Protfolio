@@ -1,11 +1,17 @@
+
 import Banner from "../../Components/Banner/Baneer";
 
 
+
 const HomePage = () => {
+   
+    
     return (
-        <div>
-            <Banner></Banner>
-        </div>
+      <div className="h-[101vh]">
+        
+        <Banner></Banner>
+      </div>
+       
     );
 };
 

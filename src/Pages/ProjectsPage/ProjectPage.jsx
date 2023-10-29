@@ -1,19 +1,15 @@
 import { useNavigate } from "react-router-dom";
-import Info from "../../Components/Info/Info";
+import Projects from "../../Components/Projects/Projects";
 import { useEffect } from "react";
 
 
-const InfoPage = () => {
+const ProjectPage = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY  < 1) {
-              navigate('/');
-            }
-            else if (window.screenY > 1){
-                navigate('/projects')
-            }
+        
+            
            
           
               
@@ -29,9 +25,10 @@ const InfoPage = () => {
         };
     }, [navigate]);
     return (
-        <div className="h-[105vh]">
-            <Info></Info>
+        <div className="h-[101vh] bg-slate-200">
+            <Projects></Projects>
         </div>
     );
 };
-export default InfoPage
+
+export default ProjectPage;
