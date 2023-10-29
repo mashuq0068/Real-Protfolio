@@ -173,3 +173,9 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 .ani-bottom {
   animation: bottom 1s linear ;
 }
+@media (max-width:500px) {
+  body{
+    overflow-y: auto;
+  }
+  
+}
