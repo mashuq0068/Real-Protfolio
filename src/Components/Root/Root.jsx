@@ -13,7 +13,7 @@ const Root = () => {
            <NavLink className=' animate-bounce focus:pl-3 focus:animate-none focus:pr-[70%]  duration-1000 focus:bg-cyan-400  hover:bg-cyan-400 focus:py-2 focus:rounded-2xl hover:pl-3 hover:pr-[70%] hover:py-2 hover:rounded-2xl hover:animate-none' to='/projects'>Projects</NavLink>
            <NavLink className=' animate-bounce focus:pl-3 focus:animate-none focus:pr-[20vw]   duration-1000 focus:bg-amber-400  hover:bg-amber-400 focus:py-2 focus:rounded-2xl hover:pl-3 hover:pr-[20vw] hover:py-2 hover:rounded-2xl hover:animate-none' to='/skills'>Skills</NavLink>
            <NavLink className='  animate-bounce duration-1000 focus:animate-none focus:pl-3 focus:pr-[20vw]   focus:bg-sky-400 hover:bg-sky-400 focus:py-2 focus:rounded-2xl hover:pl-3 hover:pr-[20vw] hover:py-2 hover:rounded-2xl hover:animate-none' to='/'>Faq</NavLink>
-           <NavLink className=' animate-bounce duration-1000 focus:animate-none focus:pl-3 focus:pr-[15vw] focus:bg-teal-400  hover:bg-teal-400 hover:pl-3 hover:pr-[15vw] hover:py-2 hover:rounded-2xl hover:animate-none focus:py-2 focus:rounded-2xl ' to='/'>Contact</NavLink>
+           <NavLink className=' animate-bounce duration-1000 focus:animate-none focus:pl-3 focus:pr-[15vw] focus:bg-teal-400  hover:bg-teal-400 hover:pl-3 hover:pr-[15vw] hover:py-2 hover:rounded-2xl hover:animate-none focus:py-2 focus:rounded-2xl ' to='/contact'>Contact</NavLink>
        
       
         </div>

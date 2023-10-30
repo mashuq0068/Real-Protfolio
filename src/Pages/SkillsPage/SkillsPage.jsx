@@ -2,7 +2,7 @@ import Skills from "../../Components/Skills/Skills";
 
 const SkillsPage = () => {
     return (
-        <div className="my-ani">
+        <div className="ani-new-page">
             <Skills></Skills>
         </div>
     );

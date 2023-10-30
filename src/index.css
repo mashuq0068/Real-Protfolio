@@ -163,19 +163,37 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   }
   @keyframes bottom {
     from{
+      opacity: 0;
       transform: translateY(5vh);
     
   }
   to{
+    opacity: 1;
     transform: translateY(0vh);
   }
 }
 .ani-bottom {
-  animation: bottom 1s linear ;
+  animation: bottom 2s linear  ;
+  animation-fill-mode: forwards;
 }
 @media (max-width:500px) {
   body{
     overflow-y: auto;
   }
   
+}
+
+@keyframes newPage {
+  from{
+    position: relative;
+    right:-1200px
+  }
+  to{
+    position: relative;
+    right: 0;
+  }
+  
+}
+.ani-new-page{
+  animation:newPage 2s ease-in-out ;
 }
