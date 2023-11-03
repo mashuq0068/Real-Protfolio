@@ -7,7 +7,7 @@ const HomePage = () => {
    
     
     return (
-      <div className="h-[101vh]">
+      <div className="h-[101vh] ">
         
         <Banner></Banner>
       </div>

@@ -87,6 +87,9 @@
   .ani-left{
    animation: left 2s linear;
   }
+  .ani-root {
+    animation: right 1s linear ;
+  }
   .ani-top{
 
   }
@@ -176,7 +179,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   animation: bottom 2s linear  ;
   animation-fill-mode: forwards;
 }
-@media (max-width:500px) {
+@media (max-width:900px) {
   body{
     overflow-y: auto;
   }
