@@ -3,8 +3,16 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap'); */
+
  /* .font-custom {
   font-family: 'Cutive Mono', monospace;
+ } */
+ /* body{
+  font-family: 'Handlee', cursive;
+  overflow-x: hidden;
+  overflow-y: hidden;
  } */
  body{
   font-family: 'Cutive Mono' , monospace;
@@ -19,7 +27,7 @@
 @tailwind utilities;
 .myAni {
   animation-name: right;
-  animation-duration: 4s;
+  animation-duration: 5s;
  }
  
   @keyframes left {
@@ -88,7 +96,7 @@
    animation: left 2s linear;
   }
   .ani-root {
-    animation: right 1s linear ;
+    animation: right 1.5s linear ;
   }
   .ani-top{
 
@@ -179,12 +187,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   animation: bottom 2s linear  ;
   animation-fill-mode: forwards;
 }
-@media (max-width:900px) {
-  body{
-    overflow-y: auto;
-  }
-  
-}
+
 
 @keyframes newPage {
   from{
@@ -200,4 +203,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .ani-new-page{
   animation:newPage 2s ease-in-out ;
+}
+@media (max-width:900px) {
+  body{
+    overflow-y: auto;
+  }
+  
 }

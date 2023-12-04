@@ -11,7 +11,7 @@ const Banner = () => {
     return (
         <>
         <div className=" flex justify-between font-nosifer ">
-        <div className="flex flex-col items-left  font-custom font-thin glass md:text-4xl lg:w-[50%] w-[80%] md:w-[90%] lg:text-3xl text-2xl  xl:text-4xl  2xl:text-5xl text-gray-700   pl-[6%] justify-center">
+        <div className="flex flex-col items-left  font-custom font-thin  md:text-4xl lg:w-[50%] w-[80%] md:w-[90%] lg:text-3xl text-2xl  xl:text-4xl  2xl:text-5xl text-gray-700   pl-[6%] justify-center">
         <div  data-aos="fade-right"  data-aos-easing="linear"
      data-aos-duration="1500"className=''>
       <p> Hi! I am  Mashuq, </p>
