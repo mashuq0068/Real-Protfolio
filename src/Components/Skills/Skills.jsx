@@ -4,6 +4,15 @@ const Skills = () => {
     const [img, setImg] = useState("https://thumbs.dreamstime.com/b/scroll-down-arrow-icon-scrolling-screen-sign-swipe-page-vector-yellow-circles-pattern-classic-geometric-elements-188200600.jpg");
     const [animation, setAnimation] = useState("");
     const [bg, setBg] = useState("");
+    const [isPageLoaded, setPageLoaded] = useState(false);
+
+    useEffect(() => {
+     
+      setTimeout(() => {
+        setPageLoaded(true);
+      }, 500);
+    }, []);
+  
     
     const sections = [
         { scrollTop: 200, img: "https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png", bg: "bg-white" },
@@ -41,6 +50,10 @@ const Skills = () => {
     }, []);
 
     return (
+        <>
+        <div className={`page-transition ${isPageLoaded ? 'loaded new-page-ani' : ''} `}>
+        
+        </div>
         <div className={`flex ${bg} duration-1000 justify-center  main-div items-center h-screen`}>
             <div className="lg:overflow-hidden lg:h-[80vh] lg:w-[40vw]">
                 <div id="scroll-div" className="h-full  lg:pr-[27px] box-content overflow-y-scroll drop-shadow-xl overflow-x-hidden w-full">
@@ -58,6 +71,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

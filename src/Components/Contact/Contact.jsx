@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {LuSend} from 'react-icons/lu';
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
@@ -15,6 +15,15 @@ const Contact = () => {
         setOpenEmail(true)
 
     }
+    const [isPageLoaded, setPageLoaded] = useState(false);
+
+    useEffect(() => {
+     
+      setTimeout(() => {
+        setPageLoaded(true);
+      }, 500);
+    }, []);
+   
     
     const handleSendEmail = (e) => {
         e.preventDefault();
@@ -51,6 +60,10 @@ const Contact = () => {
        
     }
     return (
+        <>
+          <div className={`page-transition ${isPageLoaded ? 'loaded new-page-ani' : ''} `}>
+        
+        </div>
         <div className="flex flex-col  lg:h-screen justify-start lg:justify-center items-center ani-new-page">
             <div className="relative ">
             <img className="h-[70vh]" src="https://i.postimg.cc/j23XG4Cf/removal-ai-0a082ce1-bb71-4053-b762-5e48749558f9-screenshot-2023-10-30-155830.png" alt="" />
@@ -78,6 +91,7 @@ const Contact = () => {
              
             </div>
         </div>
+        </>
     );
 };
 
