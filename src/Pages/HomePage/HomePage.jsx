@@ -17,7 +17,7 @@ const HomePage = () => {
     return (
       <>
         
-      <div className="h-[101vh] bg-slate-200">
+      <div className="h-[101vh] bg-yellow-50">
       <div className={`page-transition ${isPageLoaded ? 'loaded new-page-ani' : ''}`}>
         
         </div>

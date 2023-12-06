@@ -53,6 +53,10 @@
     animation-name: right;
     animation-duration: 3s;
   }
+  #picture-ani {
+    animation-name: right;
+    animation-duration: 3s;
+  }
   
   @keyframes right {
     from {
@@ -133,7 +137,7 @@
 }
 .custom-cursor {
   position: fixed;
- 
+  color: white;
  /* Choose your desired background color */
   border-radius: 50%;
   pointer-events: none;

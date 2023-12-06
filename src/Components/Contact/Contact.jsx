@@ -85,7 +85,7 @@ const Contact = () => {
         </div>
        
 
-<div className="flex  myAni 2xl:text-lg min-h-screen items-center justify-start bg-white">
+<div className="flex  myAni 2xl:text-lg min-h-screen items-center justify-start bg-yellow-50">
   <div className="mx-auto w-full max-w-lg">
     <h1 className="text-4xl font-medium text-center mb-[10vh]">Contact me</h1>
     {/* <p className="mt-3 text-base w-max mx-auto 2xl:text-xl xl:text-lg mb-[10vh]">Email me at mashuq0068@gmail.com from  here:</p> */}
