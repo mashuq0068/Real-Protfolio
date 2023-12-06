@@ -51,7 +51,7 @@
   }
   .myAni {
     animation-name: right;
-    animation-duration: 5s;
+    animation-duration: 3s;
   }
   
   @keyframes right {
