@@ -183,30 +183,19 @@
     }
    
   @keyframes bounce2 {
-    0%, 100% {
-      transform: translateY(-85vh);
-     
-    }
-    50% {
-      transform: translateY(10vh);
-     
-    }
+  from{
+    transform: translateY(-3vh);
   }
-  @keyframes bounce3 {
-    0%, 100% {
-      transform: translateY(-65vh);
-      
-    }
-    50% {
-      transform: translateY(10vh);
-      
-    }
+  to{
+    transform: translateY(0vh);
+  }
   }
   .ani-bounce	{
    animation: bounce1 3s  ;
   }
   .ani-bounce2	{
-    animation: bounce2 4s ;
+    animation-name: bounce2;
+    animation-duration: 8s infinite;
   }
   .ani-bounce3	{
     animation: bounce3 5s  ;
