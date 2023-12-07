@@ -232,6 +232,21 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   animation: bottom 2s linear  ;
   animation-fill-mode: forwards;
 }
+.ani-hover{
+animation-name: hoverAni;
+animation-duration: 0.7s;
+}
+@keyframes hoverAni {
+  from{
+    
+    height: 5%;
+  }
+  to{
+    
+    height: 100%;
+  }
+  
+}
 
 
 @keyframes newPage {
