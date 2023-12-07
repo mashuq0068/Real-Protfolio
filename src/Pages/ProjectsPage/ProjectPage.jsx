@@ -6,7 +6,7 @@ import Projects from "../../Components/Projects/Projects";
 const ProjectPage = () => {
  
     return (
-        <div className="h-[101vh] bg-slate-200">
+        <div className="lg:h-[101vh] lg:bg-slate-200">
             <Projects></Projects>
         </div>
     );

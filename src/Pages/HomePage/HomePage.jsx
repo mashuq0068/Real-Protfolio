@@ -1,6 +1,10 @@
 
 import { useEffect, useState } from "react";
 import Banner from "../../Components/Banner/Baneer";
+import Info from "../../Components/Info/Info";
+import Skills from "../../Components/Skills/Skills";
+import Projects from "../../Components/Projects/Projects";
+import Contact from "../../Components/Contact/Contact";
 
 
 
@@ -23,6 +27,14 @@ const HomePage = () => {
         </div>
         
         <Banner></Banner>
+        <div className=" lg:hidden  block">
+          <Info></Info>
+          <Skills></Skills>
+          <Projects></Projects>
+          <Contact></Contact>
+
+        </div>
+
       </div>
       </>
        

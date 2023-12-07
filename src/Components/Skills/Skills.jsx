@@ -76,7 +76,7 @@ const Skills = () => {
         
         </div>
 
-        <div className={`flex bg-yellow-50 duration-1000 justify-center   main-div items-center h-screen`}>
+        <div className={`lg:flex hidden bg-yellow-50 duration-1000 justify-center   main-div items-center lg:h-screen`}>
             <div className="lg:overflow-hidden lg:h-[80vh] mx-auto lg:w-[70vw]">
                 <div id="scroll-div" className="h-full  lg:pr-[27px] box-content overflow-y-scroll drop-shadow-xl flex justify-center items-center overflow-x-hidden w-full">
                     <div className="2xl:h-[500vh] h-[100vh] xl:h-[670vh] lg:h-[500vh] lg:relative lg:w-[50vw]">
@@ -96,6 +96,18 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div className=" lg:hidden block bg-yellow-50 h-auto px-[5%]">
+            <h3 className=" text-2xl text-center  pb-[10vh]">Skills</h3>
+            <div className=" grid grid-cols-2 md:grid-cols-3 gap-[5%]">
+                <img className="w-[35vw]" src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png" alt="" />
+                <img className="w-[35vw] md:w-[20vw]" src="https://i.postimg.cc/q7NqkxbL/css.png" alt="" />
+                <img className="w-[35vw] md:w-[20vw]" src="https://openclipart.org/image/800px/272343" alt="" />
+                <img className="w-[35vw] md:w-[20vw]" src="https://mythinkpond.com/img/logo/tailwindcss-logo.png" alt="" />
+                <img className="w-[35vw] md:w-[20vw]" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png" alt="" />
+                <img className="w-[35vw] md:w-[20vw]" src="https://logosmarcas.net/wp-content/uploads/2020/12/GitHub-Logo.png" alt="" />
+               
             </div>
         </div>
         </>

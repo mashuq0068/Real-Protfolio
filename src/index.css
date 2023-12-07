@@ -238,11 +238,11 @@ animation-duration: 0.7s;
 }
 @keyframes hoverAni {
   from{
-    
+   
     height: 5%;
   }
   to{
-    
+   
     height: 100%;
   }
   
@@ -264,9 +264,21 @@ animation-duration: 0.7s;
 .ani-new-page{
   animation:newPage 2s ease-in-out ;
 }
+/* @media (max-width:1500px) {
+  body{
+    
+    letter-spacing: 0px;
+  }
+  
+} */
 @media (max-width:900px) {
   body{
     overflow-y: auto;
+    letter-spacing: 0px;
+    background-color: #FEFCE8;
+  }
+  .custom-cursor{
+     visibility: hidden;
   }
   
 }
