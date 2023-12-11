@@ -32,8 +32,8 @@ const Projects = () => {
   }, []);
 
     return (
-      <>
-      <h1 className="lg:hidden block text-2xl bg-yellow-50 text-center pt-[20vh] pb-[5vh]">Projects</h1>
+      <div>
+      <h1 className="lg:hidden block mb-6 text-2xl bg-yellow-50 text-center lg:pt-[20vh] lg:pb-[5vh]">Projects</h1>
        <div className={`custom-cursor lg:block hidden duration-1000 ${cursorWidth} ${isPageLoaded ? 'loaded' : ''}`} style={{ left: customCursorPosition.x, top: customCursorPosition.y }}></div>
       <div className={`page-transition ${isPageLoaded ? 'loaded new-page-ani' : ''} `}>
         
@@ -97,7 +97,7 @@ const Projects = () => {
 
       </div>
       </div>
-        </>
+        </div>
     );
 };
 

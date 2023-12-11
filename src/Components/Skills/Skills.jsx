@@ -99,7 +99,7 @@ const Skills = () => {
             </div>
         </div>
         <div className=" lg:hidden block bg-yellow-50 h-auto px-[5%]">
-            <h3 className=" text-2xl text-center  pb-[10vh]">Skills</h3>
+            <h3 className=" text-2xl text-center mb-8 ">Skills</h3>
             <div className=" grid grid-cols-2 md:grid-cols-3 gap-[5%]">
                 <img className="w-[35vw]" src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png" alt="" />
                 <img className="w-[35vw] md:w-[20vw]" src="https://i.postimg.cc/q7NqkxbL/css.png" alt="" />

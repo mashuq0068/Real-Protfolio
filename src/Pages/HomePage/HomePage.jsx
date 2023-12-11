@@ -21,13 +21,15 @@ const HomePage = () => {
     return (
       <>
         
-      <div className="h-[101vh] bg-yellow-50">
+      <div className="lg:h-[101vh] bg-yellow-50">
       <div className={`page-transition ${isPageLoaded ? 'loaded new-page-ani' : ''}`}>
         
         </div>
         
-        <Banner></Banner>
-        <div className=" lg:hidden  block">
+       <div className=" bg-yellow-50">
+       <Banner></Banner>
+       </div>
+        <div className=" lg:hidden space-y-16 bg-yellow-50  block">
           <Info></Info>
           <Skills></Skills>
           <Projects></Projects>

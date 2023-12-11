@@ -79,15 +79,15 @@ const Contact = () => {
        
     }
     return (
-        <>
+        <div>
         <div className={`custom-cursor  duration-1000 ${cursorWidth} ${isPageLoaded ? 'loaded' : ''}`} style={{ left: customCursorPosition.x, top: customCursorPosition.y }}></div>
           <div className={`page-transition ${isPageLoaded ? 'loaded new-page-ani' : ''} `}>
         </div>
        
 
-<div className="flex  myAni 2xl:text-lg min-h-screen items-center justify-start bg-yellow-50">
+<div className="flex  myAni 2xl:text-lg lg:min-h-screen items-center justify-start bg-yellow-50">
   <div className="mx-auto lg:w-full  w-[80vw] max-w-lg">
-    <h1 className="lg:text-4xl text-2xl lg:mt-0 mt-[10vh] font-medium text-center mb-[10vh]">Contact me</h1>
+    <h1 className="lg:text-4xl text-2xl lg:mt-0  font-medium text-center mb-6 lg:mb-[10vh]">Contact me</h1>
     {/* <p className="mt-3 text-base w-max mx-auto 2xl:text-xl xl:text-lg mb-[10vh]">Email me at mashuq0068@gmail.com from  here:</p> */}
 
     <form ref={form} onSubmit={handleSendEmail} className="mt-10 ">
@@ -113,7 +113,7 @@ const Contact = () => {
     </form>
   </div>
 </div>
-        </>
+        </div>
     );
 };
 
