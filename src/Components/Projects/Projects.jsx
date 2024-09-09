@@ -40,11 +40,11 @@ const Projects = () => {
         </div>
       <div className="bg-yellow-50  flex justify-center items-center lg:h-screen w-full">
         {/* all projects div */}
-        <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 ani-right md:gap-[5vw] gap-[5vh] lg:gap-[10%]">
+        <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 ani-right md:gap-[9vw] gap-[5vh] lg:gap-[10%]">
           {/* first project */}
-        <div onMouseLeave={()=>{setHoverProjectOne(false)}} onMouseEnter={()=>{setHoverProjectOne(true)}} className=" cursor-pointer  lg:w-[20vw] w-[90vw] md:w-[45vw] relative shadow-lg shadow-black">
+        <div onMouseLeave={()=>{setHoverProjectOne(false)}} onMouseEnter={()=>{setHoverProjectOne(true)}} className=" md:rounded-sm rounded-lg  lg:w-[20vw] w-[90vw] md:w-[45vw] relative shadow-md shadow-black">
          <div className=" bg-yellow-50">
-         <img className=" h-[30vh] w-max mx-auto " src="https://i.ibb.co/yfdXV9Y/depositphotos-200340872-stock-photo-attractive-young-male-female-models-removebg-preview.png" alt="" />
+         <img className=" lg:h-[30vh]   w-max mx-auto " src="https://i.ibb.co/yfdXV9Y/depositphotos-200340872-stock-photo-attractive-young-male-female-models-removebg-preview.png" alt="" />
          </div>
           <div className="p-[6%] 2xl:spacing">
           <h1 className=" 2xl:text-2xl lg:text-xl text-lg text-center font-bold mb-[5%]">Life Puls</h1>
@@ -53,16 +53,16 @@ const Projects = () => {
           </p>
           </div>
           <div className={`${hoverProjectOne ? "block ani-hover" : "hidden" } bg-amber-950 flex flex-col gap-[6%] justify-center items-center absolute bottom-0 right-0 h-full w-full`}>
-            <a href="https://brand-shop-fd7b2.web.app" className="2xl:text-xl lg:text-lg text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-xl bg-black">Go Live</a>
-            <a href="https://github.com/mashuq0068/life-puls-client" className="2xl:text-xl lg:text-lg text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-xl bg-black">Github</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://brand-shop-fd7b2.web.app" className="2xl:text-xl text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-md bg-black">Go Live</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/mashuq0068/life-puls-client" className="2xl:text-xl text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-xl bg-black">Github</a>
           
           </div>
         </div>
           {/* first project */}
-        <div onMouseLeave={()=>{setHoverProjectTwo(false)}} onMouseEnter={()=>{setHoverProjectTwo(true)}} className=" lg:w-[20vw] w-[90vw] md:w-[45vw] cursor-pointer relative  shadow-lg shadow-black">
+        <div onMouseLeave={()=>{setHoverProjectTwo(false)}} onMouseEnter={()=>{setHoverProjectTwo(true)}} className=" lg:w-[20vw] w-[90vw] md:w-[45vw] md:rounded-sm rounded-lg relative  shadow-md shadow-black">
          <div className="  ">
-         {/* <img className=" h-[30vh] w-max mx-auto " src="https://i.ibb.co/Yjt4xjd/Screenshot-2023-12-08-000744.png" alt="" /> */}
-         <img className="h-[30vh] pb-[3vh] pt-[2vh] w-max mx-auto " src="https://i.ibb.co/kqZk0Db/Screenshot-2023-12-08-000550.png" alt="" />
+         {/* <img className=" lg:h-[30vh] h-full w-full w-max mx-auto " srlg:c="https://i.ibb.co/Yjt4xjd/Screenshot-2023-12-08-000744.png" alt="" /> */}
+         <img className="lg:h-[30vh]  pb-[3vh] pt-[2vh] lg:w-max mx-auto " src="https://i.ibb.co/kqZk0Db/Screenshot-2023-12-08-000550.png" alt="" />
          </div>
           <div className="p-[6%]">
           <h1 className=" 2xl:text-2xl lg:text-xl text-lg text-center  font-bold mb-[5%]"> Eat Together</h1>
@@ -71,15 +71,15 @@ const Projects = () => {
           </p>
           </div>
           <div className={`${hoverProjectTwo? "block ani-hover" : "hidden" } bg-amber-950 flex flex-col gap-[6%] justify-center items-center absolute bottom-0 right-0 h-full w-full`}>
-            <a href="https://fir-practice-email-pass.web.app" className="2xl:text-xl lg:text-lg text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-xl bg-black">Go Live</a>
-            <a href="https://github.com/mashuq0068/food-sharing-client" className="2xl:text-xl lg:text-lg text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-xl bg-black">Github</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://fir-practice-email-pass.web.app" className="2xl:text-xl text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-xl bg-black">Go Live</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/mashuq0068/food-sharing-client" className="2xl:text-xl text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-md bg-black">Github</a>
           
           </div>
         </div>
           {/* first project */}
-        <div onMouseLeave={()=>{setHoverProjectThree(false)}} onMouseEnter={()=>{setHoverProjectThree(true)}} className="lg:w-[20vw] bg-yellow-50 w-[90vw] md:w-[45vw] cursor-pointer  relative  shadow-lg shadow-black">
+        <div onMouseLeave={()=>{setHoverProjectThree(false)}} onMouseEnter={()=>{setHoverProjectThree(true)}} className="lg:w-[20vw] bg-yellow-50 w-[90vw] md:w-[45vw] md:rounded-sm rounded-lg  relative  shadow-md shadow-black">
          <div className=" ">
-         <img className=" h-[30vh] w-max mx-auto " src="https://i.ibb.co/4VjXd7n/Screenshot-2023-12-08-001829.png" alt="" />
+         <img className=" lg:h-[30vh]  w-max mx-auto " src="https://i.ibb.co/4VjXd7n/Screenshot-2023-12-08-001829.png" alt="" />
          </div>
           <div className="p-[6%]">
           <h1 className=" 2xl:text-2xl lg:text-xl text-lg text-center font-bold mb-[5%]"> Event Manager</h1>
@@ -88,8 +88,8 @@ const Projects = () => {
           </p>
           </div>
           <div className={`${hoverProjectThree ? "block ani-hover" : "hidden" } bg-amber-950 flex flex-col gap-[6%] justify-center items-center absolute bottom-0 right-0 h-full w-full`}>
-            <a href="https://corporate-event-manager.web.app" className="2xl:text-xl lg:text-lg text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-xl bg-black">Go Live</a>
-            <a href="https://github.com/mashuq0068/event-management-client" className="2xl:text-xl lg:text-lg text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-xl bg-black">Github</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://corporate-event-manager.web.app" className="2xl:text-xl text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-xl bg-black">Go Live</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/mashuq0068/event-management-client" className="2xl:text-xl text-white px-6 py-2 rounded-3xl drop-shadow-xl shadow-xl bg-black">Github</a>
           
           </div>
         </div>

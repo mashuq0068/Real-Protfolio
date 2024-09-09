@@ -43,13 +43,12 @@ const Info = () => {
      </div> */}
     
     <div className="flex-col flex items-center   lg:h-screen justify-center  ">
-        <div className="relative ani-left  text-2xl lg:pt-[0]  z-20 xl:text-2xl   2xl:text-3xl p-[2%] pt-0  top-5 " >
+        <div className="relative ani-left  text-2xl lg:pt-[0] font-semibold  z-20 xl:text-2xl   2xl:text-3xl p-[2%] pt-0  top-5 " >
            <h2 className="lg:pb-0 pb-6 ">About me</h2>
         </div>
-        <div  className="ani-right   2xl:w-[40vw] z-10 xl:w-[55vw] px-[3%] lg:py-[3%] lg:pl-[3%] xl:text-lg  lg:h-[70vh] 2xl:text-2xl ">
-            <p onMouseLeave={()=>{setCursorWidth("w-[40px] h-[40px]  border border-black  bg-transparent")}}    onMouseEnter={()=>{{setCursorWidth("w-[150px] duration-1000 border-none bg-red-500  h-[150px] ")}}} className=" text-center  ani-letter     font-medium
-              ">
-            I am an accomplished front-end developer with a deep proficiency in HTML, CSS, and JavaScript, along with a specialization in React. I am passionate about crafting engaging and user-friendly web interfaces. My dedication to elegant design, combined with my mastery of these technologies, enables me to transform creative concepts into responsive and visually stunning websites. My work marries creative aesthetics with smooth functionality, ensuring that every project I undertake achieves excellence in code and user experience. Explore my portfolio to witness the seamless fusion of creativity and code, with React as my forte.
+        <div  className="ani-right   2xl:w-[40vw] z-10 xl:w-[55vw] px-[3%] lg:py-[3%] lg:pl-[3%] xl:text-lg  lg:h-[70vh] 2xl:text-xl ">
+            <p onMouseLeave={()=>{setCursorWidth("w-[40px] h-[40px]  border border-black  bg-transparent")}}    onMouseEnter={()=>{{setCursorWidth("w-[150px] duration-1000 border-none bg-red-500  h-[150px] ")}}} className=" text-center  ani-letter ">
+            I am an accomplished Full Stack developer with a deep proficiency in HTML, CSS, and JavaScript, along with a specialization in React. Also have a good knowledge of backend technologies like express, mongodb , node js. I am passionate about crafting engaging and user-friendly web interfaces. My dedication to elegant design, combined with my mastery of these technologies, enables me to transform creative concepts into responsive and visually stunning websites. My work marries creative aesthetics with smooth functionality, ensuring that every project I undertake achieves excellence in code and user experience. Explore my portfolio to witness the seamless fusion of creativity and code, with React as my forte.
             </p>
         </div>
         </div>
